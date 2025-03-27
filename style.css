@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #E5E0E0;
+}
+header {
+    display: flex;
+    justify-content:space-around;
+    /* align-items: center; */
+    margin-top: 30px;
+}
+.glavnoe {
+    font-family: "Jura", sans-serif;
+    background-color: #708998;
+    border-radius: 40px;
+    display: flex;
+    width: 320px;
+    justify-content:center;
+    align-items: center;
+}
+.zagolovok {
+    font-size: 30px;
+    padding-left: 20px;
+}
+.logo {
+    width: 60px;
+    padding:10px;
+    border-radius: 36px;
+
+}
+.icons {
+    display:flex;
+    gap:100px;
+    justify-content: flex-end;
+    margin-top: 30px;
+    
+}
+
+
+.icon-call {
+    width: 40px;
+    height: 40px;
+}
+.icon-call:hover {
+    cursor: pointer;
+}
+
+
+.icon-wallet {
+    width: 40px;
+    height: 40px;
+}
+.icon-wallet:hover {
+    cursor: pointer;
+}
+
+
+.icon-store {
+    width: 40px;
+    height: 40px;
+}
+.icon-store:hover {
+    cursor: pointer;
+}
+
+
+.icon-setting {
+    width: 40px;
+    height: 40px;
+}
+.icon-setting:hover {
+    cursor: pointer;
+}
+
+
+.icon-home {
+    width: 40px;
+    height: 40px;
+}
+.icon-home:hover {
+    cursor: pointer;
+}
+.p {
+    font-size: 40px;
+    font-family: "Poiret One", sans-serif;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 350px;
+    margin-top: 30px;
+
+}
+.phote {
+    display: flex;
+    gap:20px;
+}
+.stat {
+    gap: 50px;
+    /* justify-content: flex-end; */
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.prod {
+    width: 400px;
+    height: 250px;
+}
+.kat {
+    width: 400px;
+    height: 250px;
+}
+.photos {
+    gap: 70px;
+    /* align-items: center; */
+    display: flex;
+}
+.blue-niles {
+    width: 400px;
+    height: 700px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.niles {
+    width: 600px;
+    height: 700px;
+    
+}
+.naz {
+    display: flex;
+    font-size: 100px;
+    margin-right: 70px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-family: "Island Moments", cursive;
+}
